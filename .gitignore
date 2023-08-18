@@ -1,0 +1,105 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+*.sqlite3
+*.db
+
+# Logs and databases
+*.log
+*.log.*
+*.db
+*.db-shm
+*.db-wal
+
+# Static files (CSS, JavaScript, images)
+/static/
+
+# Media files (uploads)
+/media/
+
+# Virtual environment
+venv/
+.env
+
+# Site-specific configurations
+settings_local.py
+
+# Dependency directories
+.env/
+lib/
+libs/
+lib64/
+include/
+bin/
+share/
+man/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Django secret key
+*.secret_key
+
+# Configuration files
+*.ini
+*.conf
+
+# Compiled C extensions
+*.so
+
+# Coverage and testing
+.coverage
+htmlcov/
+
+# Documentation
+/docs/
+
+# Local .env files
+.env
+.env.*
+
+# Ignore migrations if you're using schema migrations
+# and not just South
+/yourapp/migrations/
+
+# Ignore generated API documentation
+/docs/build/
+
+# Ignore the virtual environment
+/venv/
+
+# Ignore node_modules and npm-debug.log
+/node_modules/
+npm-debug.log
+
+# Ignore yarn-error.log
+yarn-error.log
+
+# Ignore pipenv virtual environment
+/.venv/
+
+# Ignore macOS metadata files
+.DS_Store
+
+# Ignore JetBrains IDE settings
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore PyCharm project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore Visual Studio Code settings
+.vscode/
